@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Construction Labour Management</string>
+    
+    <!-- Login Activity -->
+    <string name="login_title">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="invalid_credentials">Invalid username or password</string>
+    
+    <!-- Register Activity -->
+    <string name="register_title">Register Admin</string>
+    <string name="full_name">Full Name</string>
+    <string name="company">Company</string>
+    <string name="register">Register</string>
+    <string name="registration_successful">Registration successful. You can now login.</string>
+    <string name="username_exists">Username already exists.</string>
+    
+    <!-- Dashboard Activity -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="sites">Sites</string>
+    <string name="labours">Labours</string>
+    <string name="due">Due</string>
+    <string name="active">Active</string>
+    <string name="add_new_site">Add New Construction Site</string>
+    <string name="site_name">Site Name</string>
+    <string name="location">Location</string>
+    <string name="status">Status</string>
+    <string name="active_status">Active</string>
+    <string name="completed_status">Completed</string>
+    <string name="on_hold_status">On Hold</string>
+    <string name="add_site">Add Site</string>
+    <string name="add_new_labour">Add New Labour</string>
+    <string name="labour_name">Labour Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="assign_to_site">Assign to Site</string>
+    <string name="select_site">Select Site</string>
+    <string name="joining_date">Joining Date</string>
+    <string name="wage_rate">Wage Rate (Rs/day)</string>
+    <string name="add_labour">Add Labour</string>
+    <string name="my_sites_labours">My Sites & Labours</string>
+    <string name="weekly_labour_records">Weekly Labour Records</string>
+    
+    <!-- Site Management Activity -->
+    <string name="site_management">Site Management</string>
+    <string name="labour_tab">Labour</string>
+    <string name="attendance_tab">Attendance</string>
+    <string name="payments_tab">Payments</string>
+    <string name="customer_tab">Customer</string>
+    <string name="weekly_tab">Weekly</string>
+    <string name="assign_labour">Assign Labour</string>
+    <string name="add_labour_button">Add Labour</string>
+    <string name="mark_attendance">Mark Attendance</string>
+    <string name="date">Date</string>
+    <string name="full_day">Full Day</string>
+    <string name="half_day">Half Day</string>
+    <string name="absent">Absent</string>
+    <string name="save_attendance">Save Attendance</string>
+    <string name="attendance_records">Attendance Records</string>
+    <string name="record_labour_payment">Record Labour Payment</string>
+    <string name="select_labour">Select Labour</string>
+    <string name="amount_rs">Amount (Rs)</string>
+    <string name="record_payment">Record Payment</string>
+    <string name="payment_records">Payment Records</string>
+    <string name="customer_payment_tracking">Customer Payment Tracking</string>
+    <string name="target_amount">Target Amount (Rs)</string>
+    <string name="payment_received">Payment Received (Rs)</string>
+    <string name="length_ft">Length (ft)</string>
+    <string name="width_ft">Width (ft)</string>
+    <string name="sq_ft_rate">Sq Ft Rate (Rs)</string>
+    <string name="floors">Floors</string>
+    <string name="calculate_target">Calculate Target</string>
+    <string name="payment_progress">Payment Progress</string>
+    <string name="weekly_report">Weekly Report (Last 7 Days)</string>
+    <string name="days_worked">Days Worked</string>
+    <string name="payable_amount">Payable Amount</string>
+    <string name="amount_paid">Amount Paid</string>
+    <string name="balance">Balance</string>
+    
+    <!-- Common -->
+    <string name="action_remove">Remove</string>
+    <string name="confirm_remove">Are you sure you want to remove this labour?</string>
+    <string name="manage_site">Manage Site</string>
+    <string name="logout">Logout</string>
+    <string name="no_labours_assigned">No labours assigned to this site yet.</string>
+</resources>
