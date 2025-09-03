@@ -20,6 +20,14 @@ jobs:
         distribution: "temurin"
         java-version: "17"
 
+    # اگر gradlew missing ہے تو gradle wrapper regenerate کرو
+    - name: Generate Gradle Wrapper if missing
+      run: |
+        if [ ! -f "./gradlew" ]; then
+          echo "gradlew not found. Generating..."
+          gradle wrapper
+        fi
+
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
